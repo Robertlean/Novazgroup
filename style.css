@@ -1,8 +1,17 @@
 *{
-    margin: 0;
-    
+    box-sizing: border-box;
+    margin: 0 auto;
+    list-style: none;
+     
 }
 
 .primeraseccion{
-    background: ('./images/Hero/digitalworkforce.mp4');
+    width: 100%
+}
+
+.recorte{
+    position: absolute;
+    top: 31em;
+    opacity: .4;
+    width: 100%;
 }
