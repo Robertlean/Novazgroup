@@ -4,4 +4,12 @@
     --unnamed-color-ffffff: #FFFFFF;
     ---e41d1d: #E41D1D;
     --unnamed-color-727272: #727272;
-    }
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background: url('./images/Background.png') no-repeat;
+    background-size:cover;
+}

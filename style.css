@@ -1,10 +1,4 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-}
-body{
-    background: transparent linear-gradient(90deg, #BFD8F280 0%, #F2F2F2 100%) 0% 0% no-repeat padding-box;
-}
+@import url('/general.css');
 .primeraseccion{
     width: 100%;
 }
@@ -16,8 +10,9 @@ body{
 .recorte{
     position: absolute;
     z-index: 1;
-    top: 34em;
+    top: 43em;
     width: 100%;
+    height: 15%;
 }
 .hero-grid{
     display: grid;
@@ -39,8 +34,6 @@ body{
     left: 879px;
     width: 163px;
     height: 43px;
-    background: transparent url('img/logo3.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
     margin-top: 6em;
 }
 .hero-grid div h1{
@@ -52,7 +45,6 @@ body{
     font: normal normal 800 60px/80px Montserrat;
     letter-spacing: 0px;
     color: #FFFFFF;
-    opacity: 1;
 }
 .herotext p{
     top: 573px;
@@ -74,23 +66,26 @@ body{
 }
 .evolucion{
     position: absolute;
-    top: 35em;
+    top: 38.5em;
     z-index: 3;
     left: 2em;
 }
 .evolucion img{
-    width: 40em;
+    width: 42em;
     height: auto;
     justify-content: flex-end;
     align-items:flex-start;
     margin-left: 2em;
 }
 
+/* Segunda sección */
 .segundaseccion{
-    display: grid;
+    display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-.segundaseccion div{
+.segundaseccion div :first-child{
     margin-top: 20em;
     top: 70px;
     left: 32px;
@@ -122,6 +117,7 @@ body{
 .gridinfo{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 1em
 }
 .gridfuncion{
     display: flex;
