@@ -31,13 +31,11 @@
 .infohero div img{
     display: flex;
     top: 186px;
-    left: 879px;
-    width: 163px;
     height: 43px;
     margin-top: 6em;
 }
 .hero-grid div h1{
-    top: 467px;
+    top: 500px;
     left: 260px;
     width: 617px;
     color: var(--unnamed-color-ffffff);
@@ -63,6 +61,14 @@
     flex-direction: column;
     align-items: flex-end;
     padding-right: 7em;
+}
+.contact img{
+    width: 2em;
+    height: auto;
+    margin-top: 1em;
+}
+.contact img:first-child{
+    margin-top: 9em;
 }
 .evolucion{
     position: absolute;
@@ -123,9 +129,28 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
-    width: 70%;
+    width: 60%;
     margin-top: 4em;
 }
+.robot{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.robot img{
+    width: 10em;
+    position:absolute;
+}
+.robot .monitor{
+    top:105em;
+    width:6em;
+    z-index:-1
+}
+.pc{
+    top: 103.5em;
+    left: 23.8em;
+}
+
 .gridfuncion{
     display: block;
 }
@@ -147,24 +172,24 @@
     z-index: 2;
     display: grid;
     grid-template-columns: 1fr;
-    margin: 18em 0em 0 180px;
+    margin: 13em 0em 0 100px;
 }
 .container3 div{
     display: flex;
 }
 .container3 div:first-child{
-    margin-bottom: 3em;
+    margin-bottom: 1em;
+    justify-content: space-between;
 }
 .container3 div h3{
-    width: 608px;
+    width: 580px;
     height: 159px;
     color: var(--unnamed-color-ffffff);
     text-align: left;
-    font: normal normal bold 40px/55px Montserrat;
+    font: normal normal bold 35px/55px Montserrat;
     letter-spacing: -0.6px;
     color: #FFFFFF;
     opacity: 1;
-    margin-right: 3em;
 }
 .terceraseccion .fondorojo{
     width:100%;
@@ -175,18 +200,54 @@
 .innovacion{
     position: absolute;
     z-index: -1;
-    margin-left: 10em
+    margin-left: 5em;
+    width: 30em;
+    margin-top:.8em
 }
 .imgsuperior{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10em;
+    gap: 8em;
+    margin-right: 2em;
 }
 .imgsuperior:last-child img{
     height: fit-content;
+    
 }
+/* .container3 div img{
+    width: 6em;
+    height: auto;
+} */
 .imginferior{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 10em;
+    gap: 5em;
+}
+
+/* Cuarta sección */
+.cuartaseccion{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 80em
+}
+.cuartaseccion .container{
+    display: block;
+}
+.cuartah3{
+    display: flex;
+    justify-content:center;
+}
+.cuartaseccion h3{
+    width: 668px;
+    height: 181px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #646363;
+    margin-bottom: 10em;
+}
+.slide{
+    display:grid;
+    margin-left:0;
+    margin-right: 0;
+    justify-content: center;
 }
