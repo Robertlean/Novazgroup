@@ -34,6 +34,9 @@
     height: 43px;
     margin-top: 6em;
 }
+.contact .acontacto{
+    margin-top:1em
+}
 .hero-grid div h1{
     top: 500px;
     left: 260px;
@@ -64,17 +67,35 @@
 }
 .contact img{
     width: 2em;
-    height: auto;
+    height: 100%;
     margin-top: 1em;
 }
+
+
+
+.mouse .m1{
+    position: absolute;
+    width: 1em;
+    height:auto;
+    top: 35em;
+    left: 49.48%;
+}
+.mouse .m3{
+    width: 5em;
+    height: auto;
+    margin-top:12em
+}
+
+
 .contact img:first-child{
     margin-top: 9em;
 }
 .evolucion{
     position: absolute;
-    top: 38.5em;
+    top: 39.5em;
     z-index: 3;
     left: 2em;
+    opacity: .9;
 }
 .evolucion img{
     width: 42em;
@@ -90,7 +111,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 30em;
+    margin-top: 15em;
     margin-bottom: 15em
 }
 .digitalwork p{
@@ -142,12 +163,12 @@
     position:absolute;
 }
 .robot .monitor{
-    top:105em;
+    top:109.9em;
     width:6em;
     z-index:-1
 }
 .pc{
-    top: 103.5em;
+    top: 108.5em;
     left: 23.8em;
 }
 
@@ -158,9 +179,9 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
-.gridfuncion p{
+.gridfuncion h5{
     text-align: left;
-    font: normal normal 300 28px/44px Kanit;
+    font: normal normal 300 28px/34px Kanit;
     letter-spacing: 0px;
     color: #6C6B6B;
     opacity: 1;
@@ -172,7 +193,8 @@
     z-index: 2;
     display: grid;
     grid-template-columns: 1fr;
-    margin: 13em 0em 0 100px;
+    margin: 12em 0em 0 120px;
+    padding-right: 1em;
 }
 .container3 div{
     display: flex;
@@ -182,18 +204,18 @@
     justify-content: space-between;
 }
 .container3 div h3{
-    width: 580px;
+    width: 380px;
     height: 159px;
     color: var(--unnamed-color-ffffff);
     text-align: left;
-    font: normal normal bold 35px/55px Montserrat;
+    font: normal normal bold 25px/55px Montserrat;
     letter-spacing: -0.6px;
     color: #FFFFFF;
     opacity: 1;
 }
 .terceraseccion .fondorojo{
     width:100%;
-    height: 110%;
+    height: 120%;
     position: absolute;
     z-index: 1;
 }
@@ -204,6 +226,12 @@
     width: 30em;
     margin-top:.8em
 }
+.rpa{
+    position: absolute;
+    right: 1em;
+    bottom: -150em;
+}
+
 .imgsuperior{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -214,21 +242,18 @@
     height: fit-content;
     
 }
-/* .container3 div img{
-    width: 6em;
-    height: auto;
-} */
+
 .imginferior{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 5em;
+    gap: 4em;
 }
 
 /* Cuarta sección */
 .cuartaseccion{
     display: grid;
     grid-template-columns: 1fr;
-    margin-top: 80em
+    margin-top: 75em
 }
 .cuartaseccion .container{
     display: block;
@@ -243,11 +268,130 @@
     text-align: center;
     letter-spacing: 0px;
     color: #646363;
-    margin-bottom: 10em;
+    margin-bottom: 1em;
 }
 .slide{
     display:grid;
     margin-left:0;
     margin-right: 0;
     justify-content: center;
+}
+.img-area img{
+    width:20em
+}
+.img-area .sabermas{
+    position: absolute;
+    z-index: 3;
+    top: 9.5em;
+    left: 6em;
+    width: 10em;
+}
+.carousel-indicators li{
+    width: 13px;
+    height: 13px;
+    background: #707070 0% 0% no-repeat padding-box;
+    border-radius: 50%
+}
+.carousel-indicators{
+    top: 15em
+}
+
+/* Quinta seccion */
+.quintaseccion{
+    margin-top: 25em;
+    display: flex;
+    height: 423px;
+    background: transparent linear-gradient(102deg, #434242 0%, #171717 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+}
+
+.formcontact{
+    position:absolute;
+    z-index: 1;
+    bottom:-230em;
+    right: 15em;
+    width: 446px;
+    height: 480px;
+    background: transparent linear-gradient(145deg, var(--unnamed-color-ffffff) 0%, #F7F8FC 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(145deg, #FFFFFF 0%, #F7F8FC 100%) 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 2em
+}
+.formcontact h3{
+    color: var(---e41d1d);
+    text-align: left;
+    font: normal normal bold 32px/80px Montserrat;
+    letter-spacing: 0px;
+    color: #E41D1D;
+}
+.formcontact div{
+    display:flex;
+    flex-direction: column;
+}
+.formcontact div label{
+    text-align: left;
+    font: normal normal normal 18px/40px Kanit;
+    letter-spacing: 0px;
+    color: #656565;
+}
+.formcontact div input{
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+}
+.formcontact div .enviar{
+    margin: 1em 0;
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal bold 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background: #C41A1A 0% 0% no-repeat padding-box;
+    border-radius: 35px;
+    width: 142px;
+    height: 42px;
+}
+.formcontact div:last-child{
+    display: flex;
+    margin-top: 2em;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding:5em 10em 2em;
+    width:100%
+}
+.footer h6{
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal 300 24px/20px Kanit;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.footer .logoblanco{
+    margin-bottom: 1em;
+}
+.footer .envolve{
+    margin-bottom: 2em;
+}
+.footer .redes img{
+    width: 2em;
+    margin-right: 2em;
+}
+.footer .linea{
+    height: 1em;
+    border-bottom: 1px solid #ffff;
+    width:100%;
+    margin-bottom: 2em
+}
+span{
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal 300 18px/20px Kanit;
+    letter-spacing: 0px;
+    color: #FFFFFF;
 }
